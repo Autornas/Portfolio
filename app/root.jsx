@@ -38,12 +38,14 @@ export function Layout({ children }) {
         <Meta />
         <Links />
       </head>
-      <body>
+      <body style={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}>
         <Header />
         <ClientOnly>
           <ThemeProvider theme={theme}>
             <CssBaseline />
-            {children}
+            <main style={{ flex: "1 0 auto" }}>
+              {children}
+            </main>
             <Footer />
           </ThemeProvider>
         </ClientOnly>

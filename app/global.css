@@ -1,6 +1,12 @@
 :root {
-  --bg: #f7fafc;
+  --bg: #FFFFFF;
+  --bg-secondary: #F9FAFB;
   --text: #111827;
+  --text-secondary: #6B7280;
+  --accent-primary: #729EA1;
+  --accent-secondary: #B5BD89;
+  --accent-primary-light: #8FB3B6;
+  --border: #E5E7EB;
 }
 
 html, body, #root {
